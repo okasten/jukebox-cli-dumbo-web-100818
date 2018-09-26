@@ -19,13 +19,13 @@ def help
 end 
 
 def list(songs)
-  songs.each do |song|
-    puts song 
+  songs.each_with_index do |song, index|
+    puts "#{index + 1}. #{song}"
   end 
 end 
 
 def play(songs)
-  puts "Choose enter either a song or number: "
+  puts "Please enter a song name or number: "
   input = gets.chomp
   if input.to_i && input <= songs.length
     songs[input-1]

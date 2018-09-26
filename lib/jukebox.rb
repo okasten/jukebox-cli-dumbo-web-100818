@@ -23,5 +23,10 @@ def list(songs)
     puts song 
   end 
 end 
+
 def play
+  puts "Choose enter either a song or number: "
+  input = gets.chomp
+  if input.to_i
+  end 
 end

@@ -27,9 +27,5 @@ end
 def play(songs)
   puts "Please enter a song name or number: "
   input = gets.chomp
-  if input.to_i && input <= songs.length
-    songs[input-1]
-  elsif songs.include?(input)
-  end
-  
+  if songs.include?(input) || (input > 0 && input < 10)
 end

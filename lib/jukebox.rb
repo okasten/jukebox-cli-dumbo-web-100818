@@ -59,6 +59,7 @@ def run(songs)
       puts "Please enter a valid command: "
       command = gets.chomp
     end 
+    command = gets.chomp
   end 
   exit_jukebox
 end 

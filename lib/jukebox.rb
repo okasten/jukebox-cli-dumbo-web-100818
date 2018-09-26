@@ -19,9 +19,7 @@ def help
 end 
 
 def list
-  self.each do |song|
-    puts song 
-  end 
+  songs
 end 
 def play
 end

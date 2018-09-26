@@ -31,7 +31,7 @@ def play(songs)
     if input.to_i > 0 && input.to_i < 10 
       puts "Playing #{songs[input.to_i - 1]}"
     else 
-      puts "Playing "
+      puts "Playing #{songs[input.index(input)]}"
     end 
   else 
     puts "Invalid input, please try again"

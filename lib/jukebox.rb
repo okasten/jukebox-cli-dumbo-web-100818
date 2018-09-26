@@ -11,9 +11,9 @@ songs = [
 ]
 
 def help 
+  commands = ["help", "list", "play", "exit"]
   puts "List of commands: "
-  puts "help"
-  puts "list"
-  puts "play"
-  puts "exit"
+  commands.each do |command|
+    puts command
+  end 
 end 

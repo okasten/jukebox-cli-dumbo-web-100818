@@ -18,4 +18,10 @@ def help
   end 
 end 
 
+def list
+  songs.each do |song|
+    puts song 
+  end 
+end 
 def play
+end

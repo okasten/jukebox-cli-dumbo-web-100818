@@ -24,9 +24,10 @@ def list(songs)
   end 
 end 
 
-def play
+def play(songs)
   puts "Choose enter either a song or number: "
   input = gets.chomp
-  if input.to_i
-  end 
+  if input.to_i && input < songs.length
+    songs[input-1]
+  elsif
 end

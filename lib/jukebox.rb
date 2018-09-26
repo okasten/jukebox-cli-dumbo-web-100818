@@ -11,4 +11,9 @@ songs = [
 ]
 
 def help 
+  puts "List of commands: "
+  puts "help"
+  puts "list"
+  puts "play"
+  puts "exit"
 end 

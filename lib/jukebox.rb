@@ -17,3 +17,5 @@ def help
     puts command
   end 
 end 
+
+def play

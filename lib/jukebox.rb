@@ -11,8 +11,8 @@ songs = [
 ]
 
 def help 
-  commands = ["help", "list", "play", "exit"]
-  puts "List of commands: "
+  commands = ["- help: displays this help message", "- list: displays a list of songs you can play", "- play: lets you choose a song to play", "- exit: exits the program"]
+  puts "I accept the following commands: "
   commands.each do |command|
     puts command
   end 
@@ -40,4 +40,7 @@ end
 
 def exit_jukebox 
   puts "Goodbye"
+end 
+
+def run 
 end 

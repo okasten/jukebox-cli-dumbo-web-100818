@@ -19,7 +19,7 @@ def help
 end 
 
 def list
-  songs.each do |song|
+  self.each do |song|
     puts song 
   end 
 end 

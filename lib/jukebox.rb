@@ -30,6 +30,6 @@ def play(songs)
   if input.to_i && input <= songs.length
     songs[input-1]
   elsif songs.include?(input)
-    
+  end
   
 end
